@@ -1,0 +1,34 @@
+                                                ----> IHM <----
+
+--> Ideia do projeto<--
+Um software(joguinho) com perguntas sobre query's, onde será pedido uma query e o usuário montará a query com "bloquinhos" oferecidos pelo sistema;
+O sistema deve gerar bloquinhos incorretos aleatórios para dificultar as questões(com exceção dos corretos).
+também haverá questões de multipla escolha;
+O bloquinhos serão drag and drop;
+
+-->Tecnologias<--
+Adonis.JS(Back) e Vue.JS(front)
+
+--> Cores, Tipografia <--
+> Formas
+Quadradas, retângulares 
+apenas botoẽos(clicáveis) com cantos arrendondados
+
+> Colors:
+#06060f
+#0c0c58
+#1a199e
+#1b1bed
+#59303d
+#6262cb
+#595867
+#9794b0
+
+> Tipografia
+14/20 (Corpo de texto)
+18/25 (Corpo de texto)
+24/30 (subtítulo / título)
+36/40 (Título)
+48/60 (título)
+
+
