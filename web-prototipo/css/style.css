@@ -4,6 +4,25 @@ body{
   background: #1d1d33;
 }
 
+.button-red {
+  background: #e83d5f;
+  width: 248px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.button-red:hover{
+  box-shadow: none;
+}
+
+.button-blue {
+  background-color: #5f5dee;
+  width: 248px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.button-blue:hover {
+  box-shadow: none;
+}
+
+
 /* Header */
 header{
   text-align: center;
@@ -12,18 +31,33 @@ header{
 .logo-texto{
   padding-top: 30px;
 }
-.button-user{
+
+
+header .button-red{
   margin-right: 10px;
-  background: #e83d5f;
+
 }
-.button-about{
+
+header .button-blue{
   margin-left: 10px;
-  background-color: #5f5dee;
-  color: white !important;
+
 }
 /* body */
+section h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
+.lessons-box{
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 30px;
+  height: 1000px;
+}
 
+.lessons-box h3{
+  margin-top: 40px;
+}
 
 
 
@@ -34,9 +68,9 @@ footer{
   background: #5f5dee;
   height: 65px;
   position: absolute;
-  bottom: 0;
   left: 0;
   text-align: center;
+  margin-top: 80px;
 }
 
 footer p {
