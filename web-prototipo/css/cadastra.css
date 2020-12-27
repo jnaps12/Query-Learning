@@ -1,0 +1,23 @@
+.lessons-box {
+  height: 605px;
+}
+
+.login {
+  margin-top: 65px;
+}
+
+.recuperar-senha {
+  margin-top: 20px;
+}
+
+.input-box{
+  width: 550px;
+  height: 45px;
+  border: 1px solid white !important;
+  border-radius: 30px !important;
+  background-color: #1d1d33 !important;
+  text-align: center !important;
+}
+
+
+
