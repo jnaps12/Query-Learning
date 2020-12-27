@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cadastra.css">
   <link rel="shortcut icon" href="img/icon-sql.svg" type="image/x-icon">
 </head>
+
 <body>
 
   <header>
@@ -20,7 +23,7 @@
           <h1>Query Lerning</h1>
         </div>
         <div class="row">
-          <button class="button-red">Username </button>
+          <button class="button-red"><a href="login.html"> Login</a> </button>
           <button class="button-blue"><a href="sobre.html"> Sobre</a></button>
         </div>
       </div>
@@ -29,35 +32,29 @@
     <hr>
 
     <section class="container">
-      <h2>Lições</h2>
+
+      <h2>Cadastro</h2>
+      <p>*O Username será utilizado para Login.</p>
+
 
       <div class="lessons-box">
-        <h3>Básico</h3>
-        <p>*Caixas em azul são questões completas.</p>
+        <div class="login">
 
-        <div class="row">
-          <a href="atv_1.html">
-              <div class="atv">
-                <span>Select 1</span>
-              </div>
-            </a>
-        </div>
 
-        <div class="row mt5">
-            <a class="one-half column" href="atv2.html">
-              <div class="atv">
-                <span>Exemplo 1</span>
-              </div>
-            </a>
 
-            <a class="one-half column" href="atv.3html">
-              <div class="atv">
-                <span>Exemplo 2</span>
-              </div>
-            </a>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username"><br><br>
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password"><br><br>
+          <button class="button-blue"><a href="cadastra.html">Cadasre-se</a></button>
+          <button class="button-blue"><a href="index.html">Login</a></button> <br>
+          <button class="button-red recuperar-senha"><a href="recuperar.html">Recuperar Senha</a></button>
+
+
         </div>
 
       </div>
+
     </section>
 
 
@@ -73,4 +70,5 @@
 
   </header>
 </body>
+
 </html>

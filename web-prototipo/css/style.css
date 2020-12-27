@@ -4,10 +4,26 @@ body{
   background: #1d1d33;
 }
 
+.mt1{
+  margin-top: 10px;
+}
+.mt2 {
+  margin-top: 20px;
+}
+.mt3 {
+  margin-top: 30px;
+}
+.mt4{
+  margin-top: 40px;
+}
+.mt5 {
+  margin-top: 50px ;
+}
+
 .button-red {
   background: #e83d5f;
   width: 248px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .button-red:hover{
   box-shadow: none;
@@ -16,7 +32,7 @@ body{
 .button-blue {
   background-color: #5f5dee;
   width: 248px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .button-blue:hover {
   box-shadow: none;
@@ -52,13 +68,38 @@ section h2{
   width: 100%;
   border: 1px solid white;
   border-radius: 30px;
-  height: 1000px;
+  height: 700px;
 }
 
 .lessons-box h3{
   margin-top: 40px;
 }
 
+.atv{
+  width: 181px;
+  height: 103px;
+  border-radius: 17px;
+  background-color: #2c2c47;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.atv:hover{
+  box-shadow: none;
+}
+
+.atv span{
+  font-size: 36px;
+  font-weight: 100px;
+  line-height: 93px;
+}
+.atv span:after{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background: white;
+  margin: -20px auto;
+}
 
 
 

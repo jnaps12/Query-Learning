@@ -1,0 +1,16 @@
+.lessons-box {
+  height: 272px;
+}
+
+.login {
+  margin-top: 55px;
+}
+
+#email {
+  width: 550px;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: #1d1d33;
+  text-align: center;
+}

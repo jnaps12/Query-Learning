@@ -1,0 +1,13 @@
+.lessons-box{
+  height: 700px;
+}
+.lessons-box p{
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+hr{
+  width: 80%;
+  line-height: 700px;
+}
