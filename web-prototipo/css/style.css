@@ -119,3 +119,47 @@ footer p {
   margin-bottom: 0px;
   line-height: 65px;
 }
+
+button[name="drop"] {
+  cursor: pointer;
+}
+
+.drop-content {
+  display: none;
+  position: relative;
+  left: 290px;
+  top: 45px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+.drop-content a {
+  color: white;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-drop:hover .drop-content {
+  display: block;
+}
+
+.drop-content a:hover {
+  background-color: #e83d5f;
+  border-radius: 20px;
+
+}
+
+.drop-content {
+  display: none;
+  background-color: #e83d5f;
+  position: absolute;
+}
+
+.menu-drop {
+  position: relative;
+}
+
+.blue-about:hover{
+  pointer-events:none;
+}
